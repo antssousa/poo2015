@@ -12,7 +12,9 @@ public class AloMundo {
 		JOptionPane.showMessageDialog(null, "(n + 1) % 61");
 		int i = 0;
 		while(i < 100){
+			JOptionPane.showMessageDialog(null, "Alterações feitas por: Patrick Rodrigues");
 			JOptionPane.showMessageDialog(null, " Acabei de roubar a senha da sua conta do banco! :p");
+			
 			i++;
 		}
 	}
