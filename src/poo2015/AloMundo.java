@@ -6,10 +6,8 @@ public class AloMundo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		JOptionPane.showMessageDialog(null, "Batata is very coll");
-		
-<<<<<<< HEAD
-=======
 		
 		JOptionPane.showMessageDialog(null, "(n + 1) % 61");
 		int i = 0;
@@ -19,7 +17,6 @@ public class AloMundo {
 			
 			i++;
 		}
->>>>>>> branch 'master' of git@github.com:antssousa/poo2015.git
 	}
 
 }
