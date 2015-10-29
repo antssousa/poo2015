@@ -8,5 +8,7 @@ public class AloMundo {
 		// TODO Auto-generated method stub
 		JOptionPane.showMessageDialog(null, "Hello World", "Github", 3);
 		JOptionPane.showMessageDialog(null, "Encerrando...", "Github", 2);
+		
+		JOptionPane.showMessageDialog(null, "(n + 1) % 61");
 	}
 }
