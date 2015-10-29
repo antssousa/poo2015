@@ -3,16 +3,18 @@ package model;
 public class Aluno {
 	
 	private String nome;
+	private String sobrenome;
 	private int idade;
 	
 	public Aluno() {
 		super();
 	}
 
-	public Aluno(String nome, int idade) {
+	public Aluno(String nome, String sobrenome, int idade) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
+		this.sobrenome = sobrenome;
 	}
 
 	public String getNome() {
@@ -22,7 +24,15 @@ public class Aluno {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-
+	
+	public String getSobrenome() {
+		return sobrenome;
+	}
+	
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	}
+	
 	public int getIdade() {
 		return idade;
 	}
